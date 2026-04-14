@@ -17,7 +17,7 @@ class Student {
              
              while (true){
                 System.out.println( "Student Management" );
-                System.out.println( " 1. Add student");
+                System.out.println( " 1 . Add student");
                 System.out.println( " 2 . view student ");
                 System.out.println("3. search student");
                System.out.println("4. delete student");
