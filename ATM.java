@@ -20,7 +20,7 @@ public class ATM {
             System.out.println("2. Withdraw Money");
             System.out.println("3. Deposit Money");
             System.out.println("4. Exit");
-            System.out.print("Enter your choice (1-4): ");
+            System.out.print("Make your choice (1-4): ");
             
             choice = scanner.nextInt();
             
