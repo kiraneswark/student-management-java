@@ -29,14 +29,14 @@ class Student {
              switch (choice){
                 case 1:
                     System.out.println("Enter student id :  ");
-                    int id = sc. nextInt();
+                    int id = sc.nextInt();
                     sc.nextLine();
 
                     System.out.println("Enter student name :  ");
                     String name = sc.nextLine();
 
                     System.out.println("Enter student marks ");
-                    int marks = sc. nextInt();
+                    int marks = sc.nextInt();
                     sc.nextLine();
  
                          students.add (new Student(id, name, marks));
@@ -45,7 +45,7 @@ class Student {
 
                    case 2:
                         for( Student s : students){
-                            System.out.println("id : " + s.id + " name : " + s.name + " marks : " + s.marks);
+                            System.out.println("id : " + s.id + " name : " + s.name + " marks : "+ s.marks);
                         }
                          break;
                     
@@ -68,7 +68,7 @@ class Student {
                      }
                     
                     case 4:
-                        System.out.println(" Enter student to delete");
+                        System.out.println("Enter student to delete");
                         int deleteId= sc.nextInt();
                         sc.nextLine();
                         Boolean deleted = false;
@@ -103,9 +103,8 @@ class Student {
                            System.out.println("Student Not Found");
                             }
                           break;
-
-      
-                      case 6:
+                        
+                         case 6:
                         System.out.println(" Exit");
                        return;
                        
