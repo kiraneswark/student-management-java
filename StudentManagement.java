@@ -50,6 +50,7 @@ class Student {
                          break;
                     
                     case 3:
+                     
                         System.out.println("Enter student id to search : ");
                         int searchId = sc.nextInt();
                         sc.nextLine();
@@ -65,6 +66,7 @@ class Student {
                     }
                      if (!found){
                         System.out.println("student not found");
+                         
                      }
                     
                     case 4:
